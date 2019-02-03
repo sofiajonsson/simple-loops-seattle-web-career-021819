@@ -2,7 +2,7 @@
 
 def loop_iterator(number_of_times)
  phrase = "Welcome to Flatiron School's Web Development Course!"
-  number_of_times = 0
+  number_of_times = 1
   
 loop do 
   number_of_times += 1
@@ -14,7 +14,7 @@ end
 
 def times_iterator(number_of_times)
   phrase = "Welcome to Flatiron School's Web Development Course!"
-  number_of_times = 0 
+  number_of_times = 1 
  
   7.times do
     puts "#{phrase}"
@@ -24,7 +24,7 @@ end
 
 def while_iterator(number_of_times)
   phrase = "Welcome to Flatiron School's Web Development Course!"
-  number_of_times = 0
+  number_of_times = 1
   
 while number_of_times < 20
   puts "#{phrase}"
@@ -35,7 +35,7 @@ end
 
 def until_iterator(number_of_times)
   phrase = "Welcome to Flatiron School's Web Development Course!"
-  number_of_times = 0 
+  number_of_times = 1 
   
 until number_of_times == 7
   puts "#{phrase}"
@@ -46,7 +46,7 @@ end
 
 def for_iterator(number_of_times)
   phrase = "Welcome to Flatiron School's Web Development Course!"
-  number_of_times = 0..7 
+  number_of_times = 1..7 
   
   for number in number_of_times
     puts "#{phrase}"
